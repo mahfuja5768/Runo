@@ -81,8 +81,12 @@ p {
 
 /* article area */
 #article {
-    margin: 100px 0;
+    margin: 100px 0 0;
     color: rgba(73, 80, 87, 1);
+}
+
+.gap {
+    padding-bottom: 30px;
 }
 
 #color {
@@ -109,26 +113,45 @@ ul li {
     font-weight: bold;
 
 }
-.author-info{
+
+.author-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 50px 0px 100px;
 
 }
-.author{
+
+.author {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.author-pic img{
-    width: 80px;
+
+.author-pic img {
+    width: 70px;
 }
-.author-name{
+
+.author-name {
     line-height: 10px;
     margin-left: 20px;
+    color: black;
+    padding-top: 10px;
 }
+
 .black li a {
     text-decoration: none;
     color: rgba(73, 80, 87, 1);
+    font-size: 20px;
+}
+/* posts area */
+.post{
+    background-image: url(people.png);
+    border-radius: 10px;
+    width: 420px;
+    height: 350px;
+    color: white;
+}
+.content{
+    padding: 100px 30px 30px;
 }
